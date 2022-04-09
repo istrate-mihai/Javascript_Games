@@ -1,0 +1,39 @@
+body {
+  background-color: lightgrey;
+  margin: 0;
+  padding: 0;
+}
+
+#gameArea {
+  display: flex;
+  border: 1px solid blue;
+  margin: 20px auto;
+  position: relative;
+  background-image: url("images/wallpaper.jpg");
+  width: 100%;
+}
+
+#playerAirplane {
+  position: relative;
+  width: 5%;
+  height: 8%;
+  background-image: url("images/playerAirplane.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#blast {
+  position: relative;
+  background-image: url("images/blast.jpg");
+  background-size: cover;
+}
+
+.enemyAirplane {
+  position: absolute;
+  background-image: url("images/enemyAirplane.png");
+  background-size: cover;
+}
+
+#instructions {
+  display: none;
+}

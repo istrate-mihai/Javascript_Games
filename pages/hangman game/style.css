@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#gameArea {
+  background-image: url("images/noose.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 18%;
+  max-width: 768px;
+  overflow: hidden;
+}
+
+form {
+  margin-right: auto;
+  display: inline;
+  float: right;
+}
+
+.fill {
+  visibility: hidden;
+}
+span {
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.letter {
+  text-align: left;
+}
+
+.visible_letter {
+  visibility: visible;
+}
+
+.invisible_letter {
+  visibility: hidden;
+}
+
+#letterRecords {
+  float: right;
+  margin-right: 4px;
+  color: red;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#straw {
+  position: absolute;
+  top: 420px;
+  left: 200px;
+  visibility: hidden;
+}

@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Tic-tac-toe</title>
+  </head>
+  <body>
+    <div id="mainContainer">
+      <form>
+        <label style="font-size: 30px; color: blue">Choose play mode:</label>
+        <select style="font-size: 24px" onchange="choice(this)">
+          <option value="none">None</option>
+          <option value="cross">X</option>
+          <option value="circle">O</option>
+        </select>
+      </form>
+      <button
+        style="font-size: 24px"
+        onclick="choice_confirmed(this)"
+        id="confirm_button"
+      >
+        Confirm choice
+      </button>
+      <h3>Game On</h3>
+      <span id="crossHeader"
+        >You have <span style="font-size: 30px">X</span></span
+      >
+      <span id="circleHeader"
+        >You have <span style="font-size: 30px">O</span></span
+      >
+      <div id="gameArea">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
