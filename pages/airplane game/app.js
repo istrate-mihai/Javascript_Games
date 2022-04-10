@@ -1,10 +1,8 @@
 let playerAirplane = document.querySelector("#playerAirplane");
 let gameArea = document.querySelector("#gameArea");
-gameArea.style.width = "800px";
-gameArea.style.height = "600px";
-
+gameArea.style.width =  "100%";
+gameArea.style.height = "80%";
 let moveBy = 5;
-
 playerAirplane.style.position = "relative";
 playerAirplane.style.left = 500;
 playerAirplane.style.top = 500;

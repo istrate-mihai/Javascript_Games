@@ -10,7 +10,7 @@ body {
   margin: 20px auto;
   position: relative;
   background-image: url("images/wallpaper.jpg");
-  width: 100%;
+  background-size: cover;
 }
 
 #playerAirplane {

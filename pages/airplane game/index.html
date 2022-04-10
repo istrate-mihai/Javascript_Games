@@ -4,19 +4,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <title>Airplane Game</title>
   </head>
   <body>
-    <button id="menu">Show Instructions</button>
-    <h3>Score: <span id="score">0</span></h3>
-    <div id="gameArea">
-      <div id="playerAirplane"></div>
+    <div class="container">
+      <button id="menu">Show Instructions</button>
+      <h3>Score: <span id="score">0</span></h3>
+      <div id="gameArea">
+        <div id="playerAirplane"></div>
+      </div>
+      <h3 id="instructions">
+        You are on a mission,use the up,down,left and right arrow keys to navigate
+        and shoot down enemy airplanes by pressing space ,as possible,if you get
+        hit you lose!
+      </h3>
     </div>
-    <h3 id="instructions">
-      You are on a mission,use the up,down,left and right arrow keys to navigate
-      and shoot down enemy airplanes by pressing space ,as possible,if you get
-      hit you lose!
-    </h3>
     <script src="app.js"></script>
   </body>
 </html>
